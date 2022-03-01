@@ -1,0 +1,63 @@
+h1 {
+  color: royalblue;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3em;
+  font-weight: regular;
+  padding-top: 1em;
+}
+
+.bar {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  border-color: royalblue;
+  border-width: thin;
+}
+
+.container {
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+.days {
+  padding-top: 2em;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  color: royalblue;
+}
+
+.days-temp {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  color: royalblue;
+  padding-bottom: 2em;
+}
+
+.details {
+  color: royalblue;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: larger;
+  padding-top: 5em;
+}
+
+.emoji {
+  font-size: xx-large;
+  color: royalblue;
+}
+
+.temperature-today {
+  color: royalblue;
+  font-size: 2em;
+  font-weight: regular;
+  padding-top: 4em;
+}
+
+.today {
+  color: royalblue;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: larger;
+}
+
+.units {
+  font-size: small;
+}

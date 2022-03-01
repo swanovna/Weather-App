@@ -21,24 +21,22 @@
       <form class="border p-5 rounded shadow" id="search-bar">
         <input type="text" class="text bar p-2 rounded" id="city" placeholder="Type a city..." />
         <input type="submit" class="text bar p-2 rounded" value="Search">
+        <input type="submit" class="text bar p-2 rounded" id="location" value="My location">
         <div class="row">
           <div class="col-4">
             <h1>Auckland</h1>
             <div class="today" id="right-now">Friday</div>
-            <div class="today">Clear</div>
+            <div class="today" id="main-now">Clear</div>
           </div>
           <div class="col-4">
             <div class="temperature-today">
-            <span id="temp-today">☀ 19</span>
-            <span class="units">
-              <a href="#" id="celsius">&deg;C</a> |
-              <a href="#" id="fahrenheit"> &deg;F</a>
-            </span>
+            <span id="temp-today">19&degC</span>
+            
             </div>
               </div>
               <div class="col-4 details">
                 <div>Precipitation: 10%</div>
-                <div>Hymidity: 65%</div>
+                <div id="hum">Humidity: 65%</div>
                 <div>Wind: 27 km/h</div>
               </div>
             </div>
